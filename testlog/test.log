@@ -1,0 +1,28 @@
+DEBUG | 2021-10-08 20:46:55 | [main] wdm.cache.ResolutionCache (ResolutionCache.java:checkKeyInResolutionCache:193) - Resolution chrome=94 in cache (valid until 21:14:21 08/10/2021 ICT)
+DEBUG | 2021-10-08 20:46:55 | [main] wdm.cache.ResolutionCache (ResolutionCache.java:checkKeyInResolutionCache:193) - Resolution chrome94=94.0.4606.61 in cache (valid until 03:45:27 09/10/2021 ICT)
+INFO  | 2021-10-08 20:46:55 | [main] bonigarcia.wdm.WebDriverManager (WebDriverManager.java:resolveDriverVersion:958) - Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+DEBUG | 2021-10-08 20:46:55 | [main] bonigarcia.wdm.WebDriverManager (WebDriverManager.java:manage:914) - Driver chromedriver 94.0.4606.61 found in cache
+INFO  | 2021-10-08 20:46:55 | [main] bonigarcia.wdm.WebDriverManager (WebDriverManager.java:exportDriver:1013) - Exporting webdriver.chrome.driver as /Users/haanh/.cache/selenium/chromedriver/mac64/94.0.4606.61/chromedriver
+DEBUG | 2021-10-08 20:46:55 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:32) - Init WebDriver
+INFO  | 2021-10-08 20:46:57 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:35) - Init Webdriver success
+INFO  | 2021-10-08 20:47:02 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:41) - Pre-condition Step 01: Navigate to Guru99 Bank Home page
+INFO  | 2021-10-08 20:47:02 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:44) - Pre-condition Step 02: Enter UserID textbox with value mngr357980
+INFO  | 2021-10-08 20:47:02 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:47) - Pre-condition Step 03: Enter Password textbox with value demeqAm
+INFO  | 2021-10-08 20:47:07 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:50) - Pre-condition Step 04: Click on Login button
+INFO  | 2021-10-08 20:47:07 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:53) - Pre-condition Step 05: Navigate to Manager Home page
+INFO  | 2021-10-08 20:47:07 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:56) - Pre-condition Step 06: Verify manager welcome message displayed
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:beforeClass:60) - Pre-condition Step 07: Navigate to New Customer form
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_01_VerifyNameField_Empty:66) - VerifyNameField_Empty - Step 01: Press TAB key on 'Customer Name' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_01_VerifyNameField_Empty:69) - VerifyNameField_Empty - Step 02: Verify error message displayed on 'Customer Name' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_02_VerifyNameField_Numeric:76) - VerifyNameField_Numeric - Step 01: Enter 'Customer Name' textbox with value name1234
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_02_VerifyNameField_Numeric:79) - VerifyNameField_Numeric - Step 02: Verify error message displayed on 'Customer Name' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_03_VerifyNameField_Special_Chars:85) - VerifyNameField_Special_Chars - Step 01: Enter 'Customer Name' textbox with value name!@#
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_03_VerifyNameField_Special_Chars:88) - VerifyNameField_Special_Chars - Step 02: Verify error message displayed on 'Customer Name' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_04_VerifyAddressField_Empty_First_Char:95) - VerifyAddressField_Empty_First_Char - Step 01: Enter 'Address' textbox with value  abc
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_04_VerifyAddressField_Empty_First_Char:98) - VerifyAddressField_Empty_First_Char - Step 02: Verify error message displayed on 'Address' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_05_VerifyAddressField_Empty:106) - VerifyAddressField_Empty - Step 01: Press TAB key on Address Textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_05_VerifyAddressField_Empty:109) - VerifyAddressField_Empty - Step 02: Verify error message displayed on 'Address' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_06_VerifyPINField_Numeric_PIN:115) - VerifyPINField_Numeric_PIN - Step 01: Enter 'PIN' textbox with value 123PIN
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_06_VerifyPINField_Numeric_PIN:118) - VerifyPINField_Numeric_PIN - Step 02: Verify error message displayed on 'PIN' textbox
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_07_VerifyPINField_6_Digits_PIN:124) - VerifyPINField_6_Digits_PIN - Step 01: Enter 'PIN' textbox with value 123
+INFO  | 2021-10-08 20:47:09 | [main] guru99.manage.guru99NewCustomer (guru99NewCustomer.java:TC_07_VerifyPINField_6_Digits_PIN:127) - VerifyPINField_6_Digits_PIN - Step 02: Verify error message displayed on 'PIN' textbox
